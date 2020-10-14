@@ -1,0 +1,36 @@
+{
+  "thirdPartySystem": {
+    "name": "CAP Used Valuation",
+    "filters": [
+      {
+        "objectAPI": "clcommon__Collateral__c",
+        "objectAlias": "Collatral",
+        "fields": [
+          {
+            "externalField": "Cap Id",
+            "fieldAPI": "CAP_Id__c",
+            "isUrlParameter": "false"
+          },
+          {
+            "externalField": "Cap Code",
+            "fieldAPI": "CAP_Code__c",
+            "isUrlParameter": "false"
+          },
+          {
+            "externalField": "Registraion Date",
+            "fieldAPI": "Registration_Date__c",
+            "isUrlParameter": "false"
+          },
+          {
+            "externalField": "Mileage",
+            "fieldAPI": "clcommon__Current_Mileage__c",
+            "isUrlParameter": "false"
+          }
+        ],
+        "whereClause": "Id = :collateralId"
+      }
+    ],
+    "staticParameters": [],
+    "dynamicDataParameters": []
+  }
+}
