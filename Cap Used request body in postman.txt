@@ -1,0 +1,15 @@
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <GetUsedValuation xmlns="https://soap.cap.co.uk/usedvalues">
+            <Subscriber_ID>53911</Subscriber_ID>
+            <Password>539Sin</Password>
+            <Database>CARS</Database>
+            <CAPID>0</CAPID>
+            <CAPCode>VACO14EG73HPIM  5</CAPCode>
+            <RegistrationDate>2016-06-27T07:00:00.000Z</RegistrationDate>
+            <DatasetDate>2020-07-01T07:00:00.000Z</DatasetDate>
+            <JustCurrent>true</JustCurrent>
+            <Mileage>25000</Mileage>
+        </GetUsedValuation>
+    </soap:Body>
+</soap:Envelope>
